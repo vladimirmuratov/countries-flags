@@ -23,8 +23,9 @@ const Wrapper = styled.section`
 const InfoImage = styled.img`
   display: block;
   width: 100%;
-  height: 100%;
   object-fit: contain;
+
+  align-self: start;
 `;
 
 const InfoTitle = styled.h1`
@@ -71,7 +72,6 @@ const Meta = styled.div`
 
   @media (min-width: 767px) {
     flex-direction: row;
-    align-items: center;
   }
 `;
 
